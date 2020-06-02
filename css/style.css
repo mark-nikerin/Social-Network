@@ -34,6 +34,44 @@ body {
   line-height: 22px;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-panel {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-link {
+  display: flex;
+  align-items:center;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  margin-left: 12px;
+}
+
+.navigation-link:before {
+  content: "";
+  width: 1px;
+  height: 16px;
+  background: #003A8C;
+  margin-right: 12px;
+}
+
+.navigation-link:last-child:after {
+  content: "";
+  width: 1px;
+  height: 16px;
+  background: #003A8C;
+  margin-left: 12px;
+}
+
 .user {
   display: flex;
   align-items: center;
