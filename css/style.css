@@ -4,6 +4,7 @@
 
 body {
   font-family: sans-serif;
+  background: #F5F5F5;
 }
 
 .header {
@@ -139,4 +140,84 @@ body {
   height: 16px;
   background: #003A8C;
   margin-right: 17px;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu-sidebar {
+  margin-top: 18px;
+  max-width: 192px;
+}
+
+.menu-sidebar .user {
+  padding-left: 10px;
+}
+
+.menu-sidebar .user-avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-sidebar .user-name {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.sidebar-link {
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #595959;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.sidebar-link.active {
+  font-weight: 600;
+  background: #FFFFFF;
+  color: #262626;
+}
+
+.sidebar-text {
+  margin-left: 8px;
+}
+
+.sidebar-title {
+  padding-left: 10px;
+  color: #262626;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.sidebar-link.dropdown {
+  margin-top: 8px;
+}
+
+.sidebar-icon-dropdown {
+  margin-left: 4px;
+}
+
+.sidebar-text-dropdown {
+  margin-left: 12px;
+  color: #1890FF;
 }
