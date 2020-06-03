@@ -32,6 +32,7 @@ body {
   background-position: right 12px center;
   font-size: 14px;
   line-height: 22px;
+  outline: none;
 }
 
 .navigation {
@@ -78,7 +79,11 @@ body {
 }
 
 .user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
   margin-right: 8px;
+  object-fit: cover;
 }
 
 .user-name {
