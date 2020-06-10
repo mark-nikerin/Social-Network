@@ -296,3 +296,67 @@ body {
 .tag-icon {
   margin-right: 8px;
 }
+.post {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 16px 0px;
+  padding: 16px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.post-header-button {
+  background-color: white;
+  border: none;
+  outline-style: none;
+}
+
+.post-header .user-avatar {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+}
+
+.post-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-author {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  width: 100%;
+  color: #0050B3;
+  text-decoration: none;
+}
+
+.post-time-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-time {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+}
+
+.post-time:after {
+  display: inline-block;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: #BFBFBF;
+  border-radius: 50%;
+  margin-left: 6px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
