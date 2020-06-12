@@ -565,13 +565,17 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 16px;
 }
 
 .birthday-item {
   display: flex;
   align-items: center;
-  padding: 16px;
   margin-bottom: 16px;
+}
+
+.birthday-item:last-child {
+  margin-bottom: 0px;
 }
 
 .birthday-item a {
