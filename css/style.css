@@ -242,7 +242,6 @@ body {
   border-bottom: 1px solid #D9D9D9;
 }
 .create-post-title {
-
   color: #595959;
   font-weight: 600;
   font-size: 14px;
@@ -567,6 +566,7 @@ body {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 16px;
+  margin-bottom: 16px;
 }
 
 .birthday-item {
@@ -591,4 +591,104 @@ body {
   line-height: 22px;
   color: #595959;
   margin-left: 8px;
+}
+
+.fanpage {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.fanpage-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.fanpage-header-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+  margin: 0;
+}
+
+.fanpage-stats {
+  display: flex;
+  padding: 16px;
+  padding-bottom: 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.fanpage-stats-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+}
+
+.fanpage-stats-info a {
+  text-decoration: none;
+}
+
+.fanpage-stats-buttons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.fanpage-stats-button-link {
+  display: flex;
+  align-items: center;
+}
+
+.fanpage-stats-button-icon {
+  margin-right: 4px;
+}
+
+.fanpage-stats-button-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+}
+
+.fanpage-counter {
+  margin-left: 4px;
+  display: inline-block;
+  width: 17px;
+  height: 20px;
+  background: #F5F5F5;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: center;
+  color: #595959;
+}
+
+.fanpage-stats-image {
+  width: 48px;
+  height: 48px;
+  background: #F5F5F5;
+  border: 1px solid #D9D9D9;
+  flex-shrink: 0;
+  border-radius: 50%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1890FF;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-right: 12px;
 }
