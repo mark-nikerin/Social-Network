@@ -12,6 +12,11 @@
 <body>
   <header class="header">
     <div class="header-block">
+      <button class="m-menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
       <div class="search">
         <input type="text" class="search-input" placeholder="Search">
       </div>
@@ -245,7 +250,7 @@
             <div class="post-info">
               <a href="#" class="post-author">Mark Nikerin</a>
               <div class="post-time-info">
-                <span class="post-time">3hrs</span>
+                <span class="post-time">4hrs</span>
                 <svg width="14" height="14" class="settings">
                   <use xlink:href="img/post-icons.svg#settings"></use>
                 </svg>
@@ -299,7 +304,157 @@
       <!-- /.post -->
     </div>
     <!-- /.main-feed -->
+    <div class="right-sidebar">
+      <div class="stories">
+        <div class="stories-header">
+          <h4 class="stories-title">Stories</h4>
+          <div class="stories-buttons">
+            <a href="#" class="stories-button-link">
+              <svg width="16" height="16" class="stories-icon">
+                <use xlink:href="img/right-sidebar-icons.svg#archive"></use>
+              </svg>
+              <span class="stories-button-text">Archive</span>
+            </a>
+            <a href="#" class="stories-button-link">
+              <span class="stories-button-text">Settings</span>
+            </a>
+          </div>
+        </div>
+        <!-- /.story-header -->
+        <a href="#" class="story-item-add">
+          <div class="story-image">+</div>
+          <div class="story-item-text">
+            <span class="story-title">
+              Add to your story
+            </span>
+            <span class="story-text">
+              Share a photo or video or write something
+            </span>
+          </div>
+        </a>
+        <!-- /.story-item-add -->
+        <a href="#" class="story-item">
+          <div class="story-image linkedin"></div>
+          <div class="story-item-text">
+            <span class="story-title">
+              LinkedIn
+            </span>
+            <span class="story-text">
+              2 hours ago
+            </span>
+          </div>
+        </a>
+        <!-- /.story-item -->
+        <a href="#" class="story-item">
+          <div class="story-image instagram"></div>
+          <div class="story-item-text">
+            <span class="story-title">
+              Instagram
+            </span>
+            <span class="story-text">
+              4 hours ago
+            </span>
+          </div>
+        </a>
+        <!-- /.story-item -->
+        <a href="#" class="story-item">
+          <div class="story-image figma"></div>
+          <div class="story-item-text">
+            <span class="story-title">
+              Figma
+            </span>
+            <span class="story-text">
+              5 hours ago
+            </span>
+          </div>
+        </a>
+        <!-- /.story-item -->
+      </div>
+      <!-- /.stories -->
+      <div class="birthdays">
+        <div class="birthday-item">
+          <svg width="24" height="24" class="birthday-image">
+            <use xlink:href="img/right-sidebar-icons.svg#birthday"></use>
+          </svg>
+          <span class="birthday-text">
+            <a href="#">John Doe</a>’s birthday today
+          </span>
+        </div>
+        <div class="birthday-item">
+          <svg width="24" height="24" class="birthday-image">
+            <use xlink:href="img/right-sidebar-icons.svg#birthday"></use>
+          </svg>
+          <span class="birthday-text">
+            <a href="#">John Johnson</a>’s birthday tomorrow
+          </span>
+        </div>
+      </div>
+      <!-- /.birthday -->
+      <div class="fanpage">
+        <div class="fanpage-header">
+          <h4 class="fanpage-header-title">Your page</h4>
+          <svg width="24" height="24" class="fanpage-header-icon">
+            <use xlink:href="img/post-icons.svg#threedots"></use>
+          </svg>
+        </div>
+        <!-- /.fanpage-header -->
+        <div class="fanpage-stats">
+          <img src="img/figma.png" class="fanpage-stats-image"></img>
+          <div class="fanpage-stats-info">
+            <a href="#" class="fanpage-stats-title">
+              Figma
+            </a>
+            <div class="fanpage-stats-buttons">
+              <a href="#" class="fanpage-stats-button-link">
+                <svg width="16" height="16" class="fanpage-stats-button-icon">
+                  <use xlink:href="img/fanpage-icons.svg#message"></use>
+                </svg>
+                <span class="fanpage-stats-button-text">Messages</span>
+              </a>
+              <a href="#" class="fanpage-stats-button-link">
+                <svg width="16" height="16" class="fanpage-stats-button-icon">
+                  <use xlink:href="img/fanpage-icons.svg#bell"></use>
+                </svg>
+                <span class="fanpage-stats-button-text">Notifications</span>
+                <div class="fanpage-counter">3</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /.fanpage-stats -->
+        <div class="fanpage-buttons">
+          <button class="fanpage-button-link fanpage-active">
+            <span class="fanpage-button-text-active">
+              Likes
+            </span>
+          </button>
+          <button class="fanpage-button-link">
+            <span class="fanpage-button-text">
+              Views
+            </span>
+          </button>
+          <button class="fanpage-button-link">
+            <span class="fanpage-button-text">
+              Posts
+            </span>
+          </button>
+        </div>
+        <!-- /.fanpage-buttons -->
+        <div class="fanpage-likes">
+          <span class="likes-count">
+            230
+          </span>
+          <span class="likes-this-week">
+            5 likes this week
+          </span>
+        </div>
+        <!-- /.fanpage-likes -->
+      </div>
+      <!-- /.fanpage -->
+    </div>
+    <!-- /.right-sidebar -->
   </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
