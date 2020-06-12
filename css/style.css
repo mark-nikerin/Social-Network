@@ -166,7 +166,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  color: #262626
+  color: #262626;
 }
 
 .nav-group {
@@ -442,6 +442,7 @@ body {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: 18px;
+  margin-bottom: 16px;
   padding: 16px;
   padding-left: 24px;
 }
@@ -541,6 +542,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border: 2px solid #1890FF;
 }
 
 .linkedin {
@@ -548,4 +550,40 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border: 2px solid #1890FF;
+}
+
+.figma {
+  background: url("../img/figma.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #1890FF;
+}
+
+.birthdays {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.birthday-item {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.birthday-item a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #0050B3;
+}
+
+.birthday-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+  margin-left: 8px;
 }
